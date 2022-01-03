@@ -7,15 +7,22 @@ body {
     margin: 0;
 }
 
-figure {
+main {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    
 }
 
 img {
     max-width: 90%;
     height: auto;
-    /*margin: auto;
-    display: block;*/
+    margin: auto;
+    display: block;
 }
