@@ -1,0 +1,21 @@
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    /*margin: auto;
+    display: block;*/
+}
