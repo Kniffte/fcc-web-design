@@ -1,12 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand'); */
+/* @import url('https://fonts.googleapis.com/css?family=Poppins'); */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
-body {
-    font-family:'Poppins', sans-serif;
-    margin: 0;
+html {
+    
 }
 
-* {
-    box-sizing: border-box;
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Varela Round', sans-serif;
+    background: 
+        linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+        linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+        linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
 .content {
@@ -24,16 +37,24 @@ p {
 
 form {
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     border: 1px solid lightgrey;
-    background-color: rgb(234, 255, 234);
+    background-color: rgb(225, 226, 225);
+}
+
+form input, label {
+    margin: 10px 0 10px 0;
 }
 
 input[type=text],
 input[type=email] {
     width: 100%;
-    margin: 5px;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    display: float; /* ?????????? */
 }
 
 input[type=submit] {
