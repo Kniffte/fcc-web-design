@@ -12,20 +12,19 @@
             <h1 id="title">Survey Form</h1>
             <p id="description">blaaaa</p>
             <form id="survey-form">
-                <label for="name" id="name-label">Name</label><br>
+                <label for="name" id="name-label">Name</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
-                <label for="email" id="email-label">Email</label><br>
+                <label for="email" id="email-label">Email</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
-                <label for="number" id="number-label">Age</label><br>
+                <label for="number" id="number-label">Age</label>
                 <input type="number" id="number" name="number" min="18" max="99" placeholder="Age"><br>
                 <label for="dropdown">Choose a car:</label>
                 <select id="dropdown" name="role">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
                 </select>
-                <br>
                 <label>Language</label>
                 <input type="radio" id="r1" name="drone" value="r1" checked>
                 <label for="r1">r1</label>
@@ -33,7 +32,6 @@
                 <label for="r2">r2</label>
                 <input type="radio" id="r3" name="drone" value="r3">
                 <label for="r3">r3</label>
-                <br>
                 <label>Degree</label>
                 <input type="checkbox" id="c1" name="option1" value="c1">
                 <label for="c1">c1</label>
@@ -41,14 +39,12 @@
                 <label for="c2">c2</label>
                 <input type="checkbox" id="c3" name="option3" value="c3">
                 <label for="c3">c3</label>
-                <br>
                 <textarea
                     id="comments"
                     class="input-textarea"
                     name="comment"
                     placeholder="Enter your comment here..."
                 ></textarea>
-                <br>
                 <input type="submit" id="submit" name="submit" value="Submit">
             </form>
         </div>
