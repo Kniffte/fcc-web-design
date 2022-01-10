@@ -48,7 +48,7 @@ form {
 }
 
 form > p {
-    margin-top: 10px;
+    margin-bottom: 0;
     text-align: left;
 }
 
