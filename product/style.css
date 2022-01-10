@@ -9,3 +9,55 @@
     --color-green: #4ecca3;
     --color-orange: #f96d00;
 }
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    background: var(--color-white);
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+.content {
+    margin: 10px;
+}
+
+img {
+    /* display: flex; */
+}
+
+nav {
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: 0;
+}
+
+
+nav > a {
+    display: flex;
+    color: var(--color-orange);
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background: var(--color-green);
+    color: black;
+}
+
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+
+@media screen and (max-width: 720px) {
+    .content {
+        /* margin:auto; */
+    }
+    
+}
