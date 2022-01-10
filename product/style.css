@@ -1,0 +1,11 @@
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand'); */
+/* @import url('https://fonts.googleapis.com/css?family=Poppins'); */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+:root {
+    --color-dark-grey: #232931;
+    --color-grey: #393e46;
+    --color-white: #eeeeee;
+    --color-green: #4ecca3;
+    --color-orange: #f96d00;
+}
