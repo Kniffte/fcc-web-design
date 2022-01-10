@@ -49,13 +49,7 @@ nav > a:hover {
     color: black;
 }
 
-@media (max-width: 600px) {
-    header {
-      flex-wrap: wrap;
-    }
-  }
-
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
     .content {
         /* margin:auto; */
     }
