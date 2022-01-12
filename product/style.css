@@ -13,40 +13,49 @@
 body {
     font-family: 'Varela Round', sans-serif;
     background: var(--color-white);
-    margin: 0;
-    padding: 0;
 }
 
 *,
 *:after,
 *:before {
     box-sizing: border-box;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: yellowgreen;
+    padding: 0;
     margin: 0;
 }
 
+.content {
+    background-color: yellowgreen;
+}
+
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 50px;
+}
+
 img {
-    /* display: flex; */
+    height: 25px;
 }
 
 nav {
-    position: fixed;
-    display: block;
-    width: 100%;
-    top: 0;
+    background-color: red;
 }
 
+nav ul {
+    list-style: none;
+}
 
-nav > a {
-    display: flex;
+nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav a {
+    /* display: block; */
     color: var(--color-orange);
-    padding: 5px;
+    margin: 5px;
     text-decoration: none;
 }
 
