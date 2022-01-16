@@ -3,15 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 :root {
-    --color-dark-grey: #232931;
-    --color-grey: #393e46;
+    --color-dark-grey: #1a1a1b;
+    --color-grey: #333f44;
     --color-white: #eeeeee;
     --color-green: #4ecca3;
     --color-orange: #f96d00;
 }
 
-body {
+html {
     font-family: 'Varela Round', sans-serif;
+    color: var(--color-white);
+    /* background-color: #0093E9;
+    background-image: linear-gradient(160deg, #80D0C7 0%, #0093E9 100%); */
+}
+
+body {
+
 }
 
 *,
@@ -23,8 +30,7 @@ body {
 }
 
 .content {
-    /* background-color: var(--color-white); */
-    height: 1000px;
+    background-color: var(--color-dark-grey);
     max-width: 960px;
     margin: 0px auto 10px auto;
     padding: 20px;
@@ -33,7 +39,7 @@ body {
 }
 
 header {
-    background-color: var(--color-dark-grey);
+    background-color: var(--color-grey);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -42,8 +48,6 @@ header {
     padding: 30px 10%;
     z-index: 999;
     border-radius: 10px 10px 10px 10px;
-    position: sticky;
-    top: 0;
 }
 
 header h1 {
@@ -72,6 +76,85 @@ nav a {
 
 nav a:hover {
     color: var(--color-green);
+}
+
+h2 {
+    display: block;
+    margin: 3em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.detail-div {
+    margin: auto;
+    max-width: 500px;
+}
+
+h3 {
+    font-weight: normal;
+    margin: 1em auto;
+}
+
+hr {
+    margin: 5em auto;
+    max-width: 50%;
+}
+
+video {
+    display: block;
+    margin: auto;
+    margin-bottom: 3em;
+    min-width: 60%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    margin: 1.5em;
+}
+
+.grid-container div {
+    margin: 10px;
+    text-align: justify;
+}
+
+.grid-container p {
+    margin-top: 1.5em;
+}
+
+form {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+input,
+select,
+textarea {
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid var(--color-white);
+    background-color: transparent;
+}
+
+input[type=submit] {
+    /* width: 50%; */
+    background-color: var(--color-green);
+    border: none;
+    border-radius: 5px;
+    padding: 0.4em;
+}
+
+.grid-container input {
+    margin: 0;
+    width: 100%;
+    padding: 1.1em 0;
+    font-family: inherit;
+    /* font-weight: bold; */
+    font-size: 1em;
 }
 
 @media screen and (max-width: 720px) {
