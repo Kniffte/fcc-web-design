@@ -1,0 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand'); */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/* @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); */
+
+:root {
+    --color-dark-grey: #1a1a1b;
+    --color-grey: #333f44;
+    --color-white: #eeeeee;
+    --color-green: #4ecca3;
+    --color-orange: #f96d00;
+}
+
+html {
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-white);
+    /* background-color: #0093E9; */
+    /* background-image: linear-gradient(160deg, #80D0C7 0%, #0093E9 100%); */
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
