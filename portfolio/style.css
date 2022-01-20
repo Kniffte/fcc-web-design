@@ -54,9 +54,30 @@ nav a:hover {
     color: var(--color-green);
 }
 
+#projects {
+    /* background-color: var(--color-grey); */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.project-tile {
+    background-color: aqua;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    text-align: center;
+    margin: .5em;
+    padding: 1em;
+}
 
-
+footer {
+    background-color: var(--color-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    height: 200px;
+}
 
 @media only screen and (max-width: 815px) {
     /* for mobile screen */
