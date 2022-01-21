@@ -58,6 +58,8 @@ nav a:hover {
     /* background-color: var(--color-grey); */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    height: 50vh;
 }
 
 .project-tile {
@@ -66,7 +68,8 @@ nav a:hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     text-align: center;
     margin: .5em;
-    padding: 1em;
+    padding: 5em;
+    height: 250px;
 }
 
 footer {
